@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-tutorial"
+version = "0.1.0"
+description = "See README"
+authors = ["me"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "4.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -6,7 +6,7 @@ authors = ["me"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Django = "4.0.2"
+Django = "4.0.9"
 
 [tool.poetry.dev-dependencies]
 black = "^21.12b0"
